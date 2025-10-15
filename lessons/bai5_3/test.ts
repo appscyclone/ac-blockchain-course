@@ -7,7 +7,7 @@ async function main() {
     "function getCount() public view returns (uint)",
     "function increment() public"
   ];
-  const contractAddress = "0x41d0Ad4E6227062B59CA673B418Fc00E3A2d10Cf"; // Replace with your contract address
+  const contractAddress = "0x843a9Bc56C85049f0323Be7D6f266f71b6eE99b7"; // Replace with your contract address
 
   const contract = new ethers.Contract(contractAddress, abi, provider);
 
